@@ -5,7 +5,7 @@ pipeline {
     stages  {
         stage('Build') {
             steps {
-                echo "Building the application"
+                echo "Building the application , siva done some change"
                // sh "mvn package -Dskip.tests=true"
             }
         }
